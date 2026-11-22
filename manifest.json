@@ -500,6 +500,9 @@
         "blob/dc27755ef9d33903a15d51edecdda20eb765c2fc.nq.gz",
         "blob/c575c2ff63dc0625ec4b14739b0a42abdc69f46b.nq.gz",
         "blob/1c70d2b94c966b4e80d5dc50e9cab7e7efcb02cc.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/dccf5f4a5d4ad018905018be4a9d7f56141b4268/chunk-001.nq.gz"
       ]
     }
   ],
