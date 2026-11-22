@@ -1004,7 +1004,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/divan-macros-0.1.17/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/dccf5f4a5d4ad018905018be4a9d7f56141b4268/chunk-001.nq.gz",
+      "dep": "dep/dccf5f4a5d4ad018905018be4a9d7f56141b4268.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
