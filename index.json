@@ -1,0 +1,11 @@
+{
+  "org": "CodSpeedHQ",
+  "repo": "codspeed-rust",
+  "versions": [
+    {
+      "commit": "dccf5f4a5d4ad018905018be4a9d7f56141b4268",
+      "tag": "v4.4.1",
+      "parsed_at": "2026-11-22T06:07:24.046043+00:00"
+    }
+  ]
+}
