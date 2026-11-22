@@ -1,0 +1,52 @@
+[2026-11-22T05:05:10Z] === ENRICH ITERATION 1 START | repo=CodSpeedHQ/codspeed-rust sha=dccf5f4a ===
+[2026-11-22T05:05:10Z] [iter=1] PHASE START: enrich repo=CodSpeedHQ/codspeed-rust sha=dccf5f4a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/dccf5f4a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/dccf5f4a5d4ad018905018be4a9d7f56141b4268.nq.gz
+[2026-11-22T05:05:10Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T05:05:27Z] [iter=1] AST store loaded triples=1277385 load_secs=16 mem_mb=987 MB
+[2026-11-22T05:05:27Z] [iter=1] Step 2: Finding LSP targets mem_mb=987 MB
+[2026-11-22T05:05:29Z] [iter=1] LSP targets found call_sites=11164 imports=452 extends=0 implements=262 secs=2
+[2026-11-22T05:05:31Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=987 MB
+[2026-11-22T05:05:36Z] [iter=1] Position index built positions=85237 nodes_with_types=102770 secs=5 mem_mb=987 MB
+[2026-11-22T05:05:36Z] [iter=1] Step 3: Starting LSP resolution mem_mb=987 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T05:05:36Z] [iter=1] Resolving target type target_type=call_site count=11164
+[2026-11-22T05:06:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=0 resolved=0 errors=0 current=crates/criterion_compat/benches/criterion_example.rs
+[2026-11-22T05:07:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.1 files_done=2 resolved=373 errors=0 current=crates/criterion_compat/criterion_fork/src/bencher.rs
+[2026-11-22T05:07:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=3 resolved=486 errors=0 current=crates/criterion_compat/criterion_fork/src/benchmark_group.rs
+[2026-11-22T05:09:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=5 resolved=875 errors=0 current=crates/criterion_compat/criterion_fork/benches/benchmarks/compare_functions.rs
+[2026-11-22T05:10:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=9 resolved=1357 errors=0 current=crates/cargo-codspeed/src/app.rs
+[2026-11-22T05:11:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=12 resolved=1688 errors=0 current=crates/criterion_compat/criterion_fork/src/analysis/compare.rs
+[2026-11-22T05:12:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=15 resolved=1958 errors=0 current=crates/criterion_compat/criterion_fork/benches/benchmarks/measurement_overhead.rs
+[2026-11-22T05:12:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=18 resolved=2318 errors=0 current=crates/divan_compat/divan_fork/macros/src/attr_options.rs
+[2026-11-22T05:13:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=23 resolved=2667 errors=0 current=crates/criterion_compat/criterion_fork/src/plot/plotters_backend/regression.rs
+[2026-11-22T05:13:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=26 resolved=2930 errors=0 current=crates/criterion_compat/criterion_fork/benches/benchmarks/external_process.rs
+[2026-11-22T05:15:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=28 resolved=3282 errors=0 current=crates/cargo-codspeed/tests/helpers.rs
+[2026-11-22T05:15:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=32 resolved=3807 errors=0 current=crates/criterion_compat/criterion_fork/benches/benchmarks/async_measurement_overhead.rs
+[2026-11-22T05:16:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=38 resolved=4490 errors=0 current=crates/codspeed/src/instrument_hooks/mod.rs
+[2026-11-22T05:18:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=43 resolved=4987 errors=0 current=crates/divan_compat/examples/benches/counters.rs
+[2026-11-22T05:18:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=47 resolved=5099 errors=0 current=crates/divan_compat/src/compat/bench/mod.rs
+[2026-11-22T05:19:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.1 files_done=57 resolved=5516 errors=0 current=crates/divan_compat/divan_fork/src/time/fine_duration.rs
+[2026-11-22T05:20:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=58 resolved=5674 errors=0 current=crates/codspeed/src/utils.rs
+[2026-11-22T05:20:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=63 resolved=5938 errors=0 current=crates/criterion_compat/criterion_fork/src/kde.rs
+[2026-11-22T05:21:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=71 resolved=6069 errors=0 current=crates/divan_compat/divan_fork/src/bench/args.rs
+[2026-11-22T05:21:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=77 resolved=6357 errors=0 current=crates/criterion_compat/criterion_fork/src/benchmark.rs
+[2026-11-22T05:22:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.3 files_done=86 resolved=6680 errors=0 current=crates/divan_compat/divan_fork/src/entry/list.rs
+[2026-11-22T05:23:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=90 resolved=6880 errors=0 current=crates/divan_compat/examples/benches/sort.rs
+[2026-11-22T05:23:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=96 resolved=7178 errors=0 current=crates/criterion_compat/criterion_fork/src/estimate.rs
+[2026-11-22T05:24:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.1 files_done=103 resolved=7594 errors=0 current=crates/divan_compat/benches/drop_example.rs
+[2026-11-22T05:24:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.7 files_done=109 resolved=7756 errors=0 current=crates/cargo-codspeed/tests/simple-criterion.in/benches/criterion_example.rs
+[2026-11-22T05:25:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.2 files_done=117 resolved=8008 errors=0 current=crates/criterion_compat/criterion_fork/plot/src/data.rs
+[2026-11-22T05:25:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.8 files_done=126 resolved=8174 errors=0 current=crates/criterion_compat/benches/criterion_integration/sleep.rs
+[2026-11-22T05:26:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=137 resolved=8449 errors=0 current=crates/cargo-codspeed/tests/cargo_config.in/benches/cargo_config_bench.rs
+[2026-11-22T05:27:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=147 resolved=8609 errors=0 current=crates/divan_compat/divan_fork/src/counter/mod.rs
+[2026-11-22T05:27:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.4 files_done=153 resolved=8732 errors=0 current=crates/criterion_compat/criterion_fork/macro/src/lib.rs
+[2026-11-22T05:28:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=165 resolved=8840 errors=0 current=crates/cargo-codspeed/tests/simple-bencher.in/benches/another_bencher_example.rs
+[2026-11-22T05:28:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=190 resolved=9031 errors=0 current=crates/divan_compat/src/compat/cli.rs
+[2026-11-22T05:29:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=236 resolved=9179 errors=0 current=crates/criterion_compat/criterion_fork/ci/nextest-compat.sh
+[2026-11-22T05:29:20Z] [iter=1] Target type resolved target_type=call_site resolved=9205 errors=0 secs=1423 mem_mb=987 MB
+[2026-11-22T05:29:20Z] [iter=1] Resolving target type target_type=import_statement count=452
+[2026-11-22T05:29:40Z] [iter=1] Target type resolved target_type=import_statement resolved=363 errors=0 secs=21 mem_mb=987 MB
+[2026-11-22T05:29:40Z] [iter=1] Resolving target type target_type=implements_clause count=262
+[2026-11-22T05:29:48Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=24.6 files_done=1 resolved=0 errors=0 current=crates/criterion_compat/criterion_fork/src/bencher.rs
+[2026-11-22T05:29:56Z] [iter=1] Target type resolved target_type=implements_clause resolved=190 errors=0 secs=16 mem_mb=987 MB
+[2026-11-22T06:04:41Z] [iter=1] Step 5: Writing final enrichment file triples=118497
+[2026-11-22T06:04:42Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/dccf5f4a5d4ad018905018be4a9d7f56141b4268.nq.gz size_kb=2953
+[2026-11-22T06:04:42Z] [iter=1] PHASE END: enrich elapsed_s=3572 elapsed_min=59.5 total_triples=118497
